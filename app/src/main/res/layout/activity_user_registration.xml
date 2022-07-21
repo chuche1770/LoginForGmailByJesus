@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:gravity="center"
+tools:context=".UserRegistration">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="60px">
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="Crear una cuenta de Google"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        />
+
+    <EditText
+        android:id="@+id/etUsuario"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombreUser"
+        android:maxLength="14"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/etUsuario"
+        android:layout_marginTop="30px"/>
+
+    <EditText
+        android:id="@+id/etContrasena"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/etContrasena"
+        android:layout_marginTop="30px"
+        android:inputType="textPassword"/>
+
+    <EditText
+        android:id="@+id/etConfirmContrasena"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:hint="@string/etConfirmContrasena"
+        android:layout_marginTop="30px"
+        android:inputType="textPassword"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60px"
+        android:text="@string/btnCrearCuenta"
+        android:backgroundTint="@color/blueGmail"/>
+</LinearLayout>
+</LinearLayout>

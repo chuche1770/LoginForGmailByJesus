@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginForGmailByJesus</string>
+    <string name="etUsuario">Correo Gmail</string>
+    <string name="etContrasena">Contraseña</string>
+    <string name="txtRegistrar"><u>Registrarse</u></string>
+    <string name="btnIniciar">Iniciar Sesión</string>
+    <string name="nombreUser">Nombre</string>
+    <string name="etConfirmContrasena">Confirmacion de Contraseña</string>
+    <string name="btnCrearCuenta">Crear Cuenta</string>
+    <string name="btnCerrar">Cerrar Sesion</string>
+</resources>
+
